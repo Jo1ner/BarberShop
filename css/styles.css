@@ -1,0 +1,227 @@
+:root {
+  --main-font-family: 'Open Sans', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
+  --accent-color: #ff6c00;
+  --primary-text-color-theme-dark: #ffffff;
+  --secondary-text-color-theme-dark: #9da4bd;
+  --primary-text-color-theme-light: #303030;
+  --secondary-text-color-theme-light: #555555;
+  --text-color-section-subtitle: rgba(157, 164, 189, 0.6);
+}
+
+body {
+  font-family: var(--main-font-family);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* ============== COMPONENTS ============ */
+.modal-open-btn {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  /* color: #fff; */
+}
+.modal-open-btn-theme-dark {
+  color: var(--primary-text-color-theme-dark);
+}
+.modal-open-btn-theme-light {
+  color: var(--primary-text-color-theme-light);
+}
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+  background-color: var(--accent-color);
+}
+
+.social-list-link {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: var(--primary-text-color-theme-light);
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  color: var(--accent-color);
+}
+
+.section-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.section-subtitle-theme-dark {
+  color: var(--text-color-section-subtitle);
+}
+.section-subtitle-theme-light {
+  color: var(--primary-text-color-theme-light);
+}
+
+.section-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+.section-description-theme-dark {
+  color: var(--secondary-text-color-theme-dark);
+}
+.section-description-theme-light {
+  color: var(--secondary-text-color-theme-light);
+}
+
+.section-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+}
+.section-title-theme-light {
+  color: var(--primary-text-color-theme-light);
+}
+.section-title-theme-dark {
+  color: var(--primary-text-color-theme-dark);
+}
+/* ============== /COMPONENTS ============ */
+
+/* ============== HEADER ============ */
+.menu-link {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  /* color: #fff; */
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-tell {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  /* color: #fff; */
+}
+
+.contact-tell:hover,
+.contact-tell:focus {
+  color: var(--accent-color);
+}
+
+/* ============== /HEADER ============ */
+
+/* ============== HERO ============ */
+.hero-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: 0.05em;
+  color: var(--primary-text-color-theme-dark);
+}
+/* ============== /HERO ============ */
+
+/* ============== ABOUT-US ============= */
+.about-us-descr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.85714;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-theme-light);
+}
+/* ============== /ABOUT-US ============= */
+
+/* ============== SERVICES ============== */
+.cell-name,
+.cell-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.66667;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-theme-dark);
+} /* ============== /SERVICES ============== */
+
+/* ============== BENEFITS ============== */
+.benefits-list-amount {
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: var(--primary-text-color-theme-light);
+}
+.benefits-list-descr {
+  font-weight: 600;
+  font-size: 11px;
+  text-align: center;
+  color: var(--primary-text-color-theme-light);
+}
+/* ============== /BENEFITS ============== */
+
+/* ============== EMPLOYEES ============== */
+.employees-list-name {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--primary-text-color-theme-light);
+}
+.employees-list-position {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--accent-color);
+}
+/* ============== /EMPLOYEES ============== */
+
+/* ============== GALLERY =============== */
+/* ============== /GALLERY =============== */
+
+/* ============== CONTACTS =============== */
+.contacts-list-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.66667;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-theme-dark);
+}
+.contacts-list-link[href='mailto:barbershop@email.com'] {
+  text-decoration: underline;
+}
+.contacts-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary-text-color-theme-dark);
+}
+.contacts-info-time {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.66667;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-theme-dark);
+}
+/* ============== /CONTACTS =============== */
+
+/* ============== FOOTER ================ */
+.footer-text {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: var(--secondary-text-color-theme-dark);
+}
+/* ============== /FOOTER ================ */
